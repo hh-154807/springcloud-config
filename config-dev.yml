@@ -10,6 +10,8 @@ eureka:
       #设置于eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
 #      defaultZone: http://eureka7002.com/eureka/
       defaultZone: http://eureka7001.com/eureka/
+config:
+  info: 12334
 #  server:
 #    enable-self-preservation: false
 #    eviction-interval-timer-in-ms: 2000
